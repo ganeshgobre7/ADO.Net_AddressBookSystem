@@ -9,7 +9,8 @@ namespace ADO.Net_AddressBook
             Console.WriteLine("WELCOME TO ADDRESS BOOK SYSTEM!!!!");
             AddressBookRepo addressBook = new AddressBookRepo();
             addressBook.DBCOnnection();
-            addressBook.CreateContact();
+            //addressBook.CreateContact();
+            addressBook.EditContact();
         }
     }
 }
